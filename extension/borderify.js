@@ -42,24 +42,24 @@ function prepare() {
   css.innerHTML = '.__clickbait_link {  } ';
   css.innerHTML += `.__clickbait_button {
     cursor: pointer;
-    height: 1.8rem;
-    letter-spacing: .1rem;
-    line-height: 1.8rem;
+    height: 1.7rem;
+    letter-spacing: .01rem;
+    line-height: 1.7rem;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
     white-space: nowrap;
     display: inline-block;
 
-    background-color: #f6f7f9;
-    color: #4b4f56;
+    background-color: #4267b2;
+    color: #ffffff;
 
     border: 1px solid;
     border-radius: 2px;
     box-sizing: content-box;
     font-family: helvetica, arial, sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 0 8px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 6px;
     position: relative;
     text-align: center;
     text-shadow: none;
